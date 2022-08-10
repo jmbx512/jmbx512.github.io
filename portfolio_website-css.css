@@ -1,0 +1,264 @@
+body {
+  padding-bottom: 35px;
+}
+
+.home_body {
+  text-align: center;
+  margin-left: 300px;
+}
+
+.home_heading_container {
+  margin-top: 200px;
+}
+
+.home_heading {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 80px;
+}
+
+.home_nav {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.home_nav_list {
+  display: inline-block;
+  list-style: none;
+}
+
+.home_nav_item {
+  display: flex;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.nav_icon_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Header */
+.heading {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 60px;
+  padding: 30px;
+}
+
+.nav {
+  float: right;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+
+.nav_item {
+  font-size: 30px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav_icon {
+  display: flex;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.nav_link {
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+.nav_link:visited {
+  color: black;
+}
+.nav_link:hover {
+  color: #B59E74;
+}
+
+/* Inspiration Caption */
+.inspiration_container {
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.inspiration_caption {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Structural Complexity */
+.structural_complexity {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.structural_complexity_landscape_photos {
+  width: auto;
+  max-height: 299px;
+  margin: 2px;
+}
+
+.structural_complexity_portrait_photos {
+  width: auto;
+  height: 300px;
+  margin: 2px;
+}
+
+.structural_complexity_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+/* Residential */
+.residential {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.residential_landscape_photos {
+  width: auto;
+  max-height: 299px;
+  margin: 2px;
+}
+
+.residential_portrait_photos {
+  width: auto;
+  height: 300px;
+  margin: 2px;
+}
+
+.residential_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+/* Design Choice */
+.design_choice {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.design_choice_photos {
+  width: 275px;
+  margin: 2px;
+}
+.design_choice_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+/* Singapore */
+.singapore {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.singapore_photos {
+  width: auto;
+  max-height: 286px;
+  margin: 2px;
+}
+
+.singapore1_photos {
+  width: auto;
+  max-height: 286px;
+  margin: 2px;
+}
+
+.singapore_portrait_photos {
+  width: 190px;
+  height: auto;
+  margin: 2px;
+}
+
+.singapore_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+/* New York */
+.new_york {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.new_york_photos {
+  width: 275px;
+  margin: 2px;
+}
+.new_york_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+/* About Page CSS */
+.about_photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.photo {
+  width: 750px;
+}
+
+.about_text {
+  width: 750px;
+  margin: auto;
+}
+
+.about_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+.about_body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 17px;
+  margin-top: -20px;
+}
