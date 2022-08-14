@@ -1,14 +1,31 @@
 body {
   padding-bottom: 35px;
+  /*margin-left: 300px;*/
 }
 
 .home_body {
   text-align: center;
-  margin-left: 300px;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width: 800px) {
+  .home_body {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+}
+
+.left-placeholder {
+  background: yellow;
+  width: 300px;
+  min-height: 300px;
+  margin: 0 50px;
 }
 
 .home_heading_container {
-  margin-top: 200px;
+  /*margin-top: 200px;*/
 }
 
 .home_heading {
@@ -188,21 +205,8 @@ body {
 }
 
 .singapore_photos {
-  width: auto;
-  max-height: 286px;
-  margin: 2px;
-}
-
-.singapore1_photos {
-  width: auto;
-  max-height: 286px;
-  margin: 2px;
-}
-
-.singapore_portrait_photos {
-  width: 190px;
-  height: auto;
-  margin: 2px;
+  max-height: 250px;
+  margin: 5px;
 }
 
 .singapore_heading {
