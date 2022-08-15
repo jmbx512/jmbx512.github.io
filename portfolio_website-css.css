@@ -106,6 +106,24 @@ body {
   color: #B59E74;
 }
 
+.modern_townhouse_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.modern_townhouse_photo {
+  max-height: 400px;
+}
+
+.modern_townhouse_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
 /* Inspiration Caption */
 .inspiration_container {
   margin-top: 50px;
@@ -120,6 +138,14 @@ body {
   text-align: center;
 }
 
+.inspiration_headings {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
 /* Structural Complexity */
 .structural_complexity {
   display: flex;
@@ -130,14 +156,6 @@ body {
 .structural_complexity_photos {
   max-height: 300px;
   margin: 0 2px;
-}
-
-.structural_complexity_heading {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  margin-left: 60px;
 }
 
 /* Residential */
@@ -152,14 +170,6 @@ body {
   margin: 0 2px;
 }
 
-.residential_heading {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  margin-left: 60px;
-}
-
 /* Design Choice */
 .design_choice {
   display: flex;
@@ -170,13 +180,6 @@ body {
 .design_choice_photos {
   width: 275px;
   margin: 2px;
-}
-.design_choice_heading {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  margin-left: 60px;
 }
 
 /* Singapore */
@@ -191,13 +194,6 @@ body {
   margin: 2px;
 }
 
-.singapore_heading {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  margin-left: 60px;
-}
 /* New York */
 .new_york {
   display: flex;
@@ -208,13 +204,6 @@ body {
 .new_york_photos {
   width: 275px;
   margin: 2px;
-}
-.new_york_heading {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  margin-left: 60px;
 }
 
 /* About Page CSS */
