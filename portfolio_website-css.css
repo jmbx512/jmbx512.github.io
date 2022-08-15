@@ -1,6 +1,5 @@
 body {
   padding-bottom: 35px;
-  /*margin-left: 300px;*/
 }
 
 .home_body {
@@ -10,22 +9,12 @@ body {
   justify-content: center;
 }
 
-@media(max-width: 800px) {
-  .home_body {
-    flex-direction: column;
-    padding-top: 30px;
-  }
+.logo_container {
+
 }
 
-.left-placeholder {
-  background: yellow;
-  width: 300px;
-  min-height: 300px;
-  margin: 0 50px;
-}
+.right_content {
 
-.home_heading_container {
-  /*margin-top: 200px;*/
 }
 
 .home_heading {
@@ -56,6 +45,13 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+@media(max-width: 800px) {
+  .home_body {
+    flex-direction: column;
+    padding-top: 30px;
+  }
 }
 
 /* Header */
@@ -131,16 +127,9 @@ body {
   margin-top: 50px;
 }
 
-.structural_complexity_landscape_photos {
-  width: auto;
-  max-height: 299px;
-  margin: 2px;
-}
-
-.structural_complexity_portrait_photos {
-  width: auto;
-  height: 300px;
-  margin: 2px;
+.structural_complexity_photos {
+  max-height: 300px;
+  margin: 0 2px;
 }
 
 .structural_complexity_heading {
@@ -158,16 +147,9 @@ body {
   margin-top: 50px;
 }
 
-.residential_landscape_photos {
-  width: auto;
-  max-height: 299px;
-  margin: 2px;
-}
-
-.residential_portrait_photos {
-  width: auto;
-  height: 300px;
-  margin: 2px;
+.residential_photos {
+  max-height: 300px;
+  margin: 0 2px;
 }
 
 .residential_heading {
@@ -205,8 +187,8 @@ body {
 }
 
 .singapore_photos {
-  max-height: 250px;
-  margin: 5px;
+  max-height: 300px;
+  margin: 2px;
 }
 
 .singapore_heading {
