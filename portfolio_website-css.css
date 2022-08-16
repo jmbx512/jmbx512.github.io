@@ -113,10 +113,28 @@ body {
 }
 
 .modern_townhouse_photo {
-  max-height: 400px;
+  max-height: 600px;
 }
 
 .modern_townhouse_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+.house_sketch_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.house_sketch_photos {
+  max-height: 400px;
+}
+
+.house_sketch_heading {
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-weight: 100;
