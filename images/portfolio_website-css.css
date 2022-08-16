@@ -1,0 +1,235 @@
+body {
+  padding-bottom: 35px;
+}
+
+.home_body {
+  text-align: center;
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo_container {
+
+}
+
+.right_content {
+
+}
+
+.home_heading {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 80px;
+}
+
+.home_nav {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.home_nav_list {
+  display: inline-block;
+  list-style: none;
+}
+
+.home_nav_item {
+  display: flex;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.nav_icon_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Header */
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading_container {
+  float: left;
+}
+
+.heading {
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 60px;
+  padding: 30px;
+}
+
+.nav {
+  display: flex;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+}
+
+.nav_item {
+  font-size: 30px;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.nav_icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.nav_link {
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+.nav_link:visited {
+  color: black;
+}
+.nav_link:hover {
+  color: #B59E74;
+}
+
+@media(max-width: 1014px) {
+  .header_container {
+    flex-direction: column;
+  }
+  .heading_conatiner {
+    width: 100%;
+  }
+  .nav {
+    width: 100%
+  }
+}
+
+.projects_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.projects_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+.modern_townhouse_photo {
+  max-height: 600px;
+}
+
+.house_sketch_photos {
+  max-height: 400px;
+}
+
+.modern_house_photos {
+  max-height: 500px;
+}
+
+/* Inspiration Caption */
+.inspiration_container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.inspiration_caption {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+
+.inspiration_headings {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+/* Structural Complexity */
+.structural_complexity_photos {
+  max-height: 300px;
+  margin: 0 2px;
+}
+
+/* Residential */
+.residential_photos {
+  max-height: 300px;
+  margin: 0 2px;
+}
+
+/* Design Choice */
+.design_choice_photos {
+  width: 275px;
+  margin: 0 2px;
+}
+
+/* Singapore */
+.singapore_photos {
+  max-height: 280px;
+  margin: 0 2px;
+}
+
+/* New York */
+.new_york_photos {
+  width: 275px;
+  margin: 0 2px;
+}
+
+/* About Page CSS */
+.about_photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.photo {
+  width: 750px;
+}
+
+.about_text {
+  width: 750px;
+  margin: auto;
+}
+
+.about_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+.about_body {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 17px;
+  margin-top: -20px;
+}
