@@ -69,6 +69,7 @@ body {
 .nav_list {
   list-style: none;
   display: flex;
+  float: right;
   padding: 10px;
 }
 
@@ -76,13 +77,12 @@ body {
   font-size: 30px;
   width: auto;
   margin: 0 20px;
-  text-align: right;
 }
 
 .socials {
   display: flex;
   justify-content: center;
-  margin: 60px 0;
+  margin: 30px 0;
 }
 
 .nav_icon {
@@ -127,6 +127,14 @@ body {
   margin-left: 60px;
 }
 
+.projects_description {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 16px;
+  margin-left: 60px;
+}
+
 .modern_townhouse_photo {
   max-height: 600px;
 }
@@ -136,7 +144,7 @@ body {
 }
 
 .modern_house_photos {
-  max-height: 500px;
+  max-height: 275px;
 }
 
 .diagram_photos {
@@ -163,6 +171,14 @@ body {
   color: black;
   font-weight: 100;
   font-size: 30px;
+  margin-left: 60px;
+}
+
+.inspiration_description {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 16px;
   margin-left: 60px;
 }
 
@@ -284,7 +300,6 @@ body {
   .diagram_photos {
     max-width: 100%;
     height: auto;
-    max-height: 200px;
     object-fit: contain;
     margin: 2px 2px;
   }
@@ -294,8 +309,13 @@ body {
   }
 
   .projects_heading {
-    text-align: center;
+    text-align: left;
     margin: 10px 0;
+    margin-left: 10px;
+  }
+
+  .projects_description {
+    margin-left: 10px;
   }
 
   .inspiration_container {
@@ -305,12 +325,13 @@ body {
   }
 
   .inspiration_heading {
-    text-align: center;
+    text-align: left;
     margin: 10px 0;
+    margin-left: 10px;
   }
 
-  .inspiration_heading_container {
-    justify-content: center;
+  .inspiration_description {
+    margin-left: 10px;
   }
 
   /* Structural Complexity */
