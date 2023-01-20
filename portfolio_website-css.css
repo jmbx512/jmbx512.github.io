@@ -1,5 +1,15 @@
 body {
-  padding-bottom: 10px;
+  background-color: #E8E4E2;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
 }
 
 .home_body {
@@ -10,18 +20,31 @@ body {
 }
 
 .logo_container {
-
+  float: left;
+  max-height: 200px;
+  line-height: 240px;
+  padding: 20px 0;
+  justify-content: center;
 }
 
 .right_content {
+  float: left;
+  max-height: 200px;
+  padding: 20px 20px;
+}
 
+.socials_home {
+  clear: left;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
 }
 
 .home_heading {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   color: black;
   text-decoration: none;
-  font-size: 80px;
+  font-size: 160px;
 }
 
 .home_nav {
@@ -46,6 +69,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .heading_container {
@@ -53,10 +77,10 @@ body {
 }
 
 .heading {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cormorant Garamond', serif;  color: black;
   color: black;
   text-decoration: none;
-  font-size: 60px;
+  font-size: 40px;
   padding: 30px;
 }
 
@@ -74,15 +98,24 @@ body {
 }
 
 .nav_item {
-  font-size: 30px;
+  font-size: 20px;
   width: auto;
-  margin: 0 20px;
+  margin: 0 25px;
 }
 
 .socials {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  background-color: white;
+}
+
+.socials_construction {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
 }
 
 .nav_icon {
@@ -90,21 +123,17 @@ body {
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   padding: 15px;
 }
 
 .nav_link {
   display: flex;
-  color: black;
-  text-decoration: none;
 }
-.nav_link:visited {
-  color: black;
-}
+
 .nav_link:hover {
-  color: #B59E74;
+  color: #745B53;
 }
 
 .nav_icon_container {
@@ -115,29 +144,32 @@ body {
 
 .projects_container {
   display: flex;
-  max-width: 100%;
-  justify-content: center;
-  margin-top: 50px;
+  max-width: 1300px;
+  max-height: 500px;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin: 60px auto;
+  background-color: white;
 }
 
 .projects_heading {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
+  font-family: 'Source Serif Pro', serif;  color: black;
   font-weight: 100;
-  font-size: 30px;
-  margin-left: 60px;
+  font-size: 25px;
+  margin-left: 30px;
 }
 
 .projects_description {
   font-family: 'Open Sans', sans-serif;
   color: black;
   font-weight: 100;
-  font-size: 16px;
-  margin-left: 60px;
+  font-size: 15px;
+  margin-left: 30px;
 }
 
 .modern_townhouse_photo {
-  max-height: 600px;
+  max-width: 950px;
+  object-fit: cover;
 }
 
 .house_sketch_photos {
@@ -145,11 +177,51 @@ body {
 }
 
 .modern_house_photos {
-  max-height: 275px;
+  max-width: 950px;
+  object-fit: cover;
+}
+
+.paper_tower_photos {
+  max-width: 950px;
+  object-position: 0 -350px;
+  object-fit: contain;
 }
 
 .diagram_photos {
   max-height: 250px;
+}
+
+.concepts_container {
+  display: flex;
+  max-width: 100%;
+  justify-content: flex-start;
+  margin-top: 60px;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: white;
+}
+
+.concepts_heading_container {
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: white;
+}
+
+.concepts_heading {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.construction {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  font-weight: 100;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 /* Inspiration Caption */
