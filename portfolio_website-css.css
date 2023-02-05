@@ -289,9 +289,11 @@ a:visited {
 }
 
 /* About Page CSS */
-.about_heading {
+.about_container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 60px 0;
 }
 
 .name_container {
@@ -299,7 +301,7 @@ a:visited {
   background-color: white;
   height: 400px;
   width: 600px;
-  margin: 60px 30px;
+  margin: 0 30px;
   padding: 20px 80px;
   filter: drop-shadow(4px 4px 6px gray);
 }
@@ -334,27 +336,17 @@ a:visited {
 
 .about_photo {
   float: left;
-  margin: 60px 30px;
+  margin: 0 30px;
   filter: drop-shadow(4px 4px 6px gray);
 }
 
-.photo {
-  max-width: 450px;
+.portrait {
   height: 440px;
   border-radius: 25px;
   object-fit: cover;
 }
 
-
-.subheading_container {
-  background-color: white;
-  width: 700px;
-  margin: auto;
-  padding: 15px 150px;
-  filter: drop-shadow(4px 4px 6px gray);
-}
-
-.subheading_header {
+.about_header {
   font-family: 'Cormorant Garamond', serif;
   color: black;
   font-size: 25px;
@@ -362,11 +354,53 @@ a:visited {
   text-align: left;
 }
 
-.subheading {
+.about_content {
   font-family: 'Quicksand', sans-serif;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 100;
+}
+
+.subheading_photo {
+  float: left;
+  margin: 0 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+}
+
+.USC {
+  height: 440px;
+  width: 440px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.subheading_container {
+  background-color: white;
+  width: 550px;
+  margin: 0 60px;;
+  padding: 20px 90px;
+  filter: drop-shadow(4px 4px 6px gray);
+}
+
+.story_container {
+  float: left;
+  background-color: white;
+  width: 650px;
+  margin: 0 30px;
+  padding: 20px 100px;
+  filter: drop-shadow(4px 4px 6px gray);
+}
+
+.story_photo {
+  float: left;
+  margin: 0 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+}
+
+.singapore {
+  height: 440px;
+  border-radius: 25px;
+  object-fit: cover;
 }
 
 @media(max-width: 768px) {
