@@ -204,6 +204,12 @@ a:visited {
   object-fit: contain;
 }
 
+.static_earthquake_photo {
+  max-width: 950px;
+  object-position: 0 -275px;
+  object-fit: cover;
+}
+
 .diagram_photos {
   max-height: 250px;
 }
@@ -232,23 +238,30 @@ a:visited {
   margin-left: 40px;
 } */
 
-.paper_tower_container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 60px 0;
 }
 
-.paper_tower_final {
+.final_photo {
   float: left;
   margin: 0 30px;
   filter: drop-shadow(4px 4px 6px gray);
   height: 550px;
-  border-radius: 25px;
   object-fit: cover;
 }
 
-.paper_tower_title {
+.paper_tower_section {
+  float: left;
+  margin: 30px 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+  height: 450px;
+  object-fit: cover;
+}
+
+.text {
   float: left;
   background-color: white;
   width: 450px;
@@ -261,8 +274,15 @@ a:visited {
   float: left;
   margin: 0 30px;
   filter: drop-shadow(4px 4px 6px gray);
-  height: 200px;
-  border-radius: 25px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.static_earthquake_section {
+  float: left;
+  margin: 0 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+  height: 400px;
   object-fit: cover;
 }
 
@@ -278,26 +298,29 @@ a:visited {
 
 /* Inspiration Caption */
 .inspiration_container {
-  display: flex;
-  max-width: 100%;
-  margin-top: 50px;
+  display: table;
+  margin-top: 40px;
+  max-width: 100vw;
   justify-content: center;
+  align-items: center;
 }
 
 .inspiration_caption {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
   color: black;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
-.inspiration_heading {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 30px;
-  margin-left: 60px;
+.inspiration_text_container {
+  float: left;
+  background-color: white;
+  width: 200px;
+  margin: 0 30px;
+  padding: 20px 80px;
+  filter: drop-shadow(4px 4px 6px gray);
 }
 
 .inspiration_description {
@@ -310,32 +333,42 @@ a:visited {
 
 /* Structural Complexity */
 .structural_complexity_photos {
-  max-height: 300px;
-  margin: 0 2px;
+  float: left;
+  margin: 30px 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+  height: 250px;
 }
 
 /* Residential */
 .residential_photos {
-  max-height: 300px;
-  margin: 0 2px;
+  float: left;
+  margin: 30px 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+  height: 250px;
 }
 
 /* Design Choice */
 .design_choice_photos {
-  width: 275px;
-  margin: 0 2px;
+  float: left;
+  margin: 30px 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+  height: 250px;
 }
 
 /* Singapore */
 .singapore_photos {
-  max-height: 280px;
-  margin: 0 2px;
+  float: left;
+  margin: 30px 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+  height: 250px;
 }
 
 /* New York */
 .new_york_photos {
-  width: 275px;
-  margin: 0 2px;
+  float: left;
+  margin: 30px 30px;
+  filter: drop-shadow(4px 4px 6px gray);
+  height: 250px;
 }
 
 /* About Page CSS */
@@ -389,7 +422,8 @@ a:visited {
   margin: 0 30px;
   filter: drop-shadow(4px 4px 6px gray);
   height: 440px;
-  border-radius: 25px;
+  width: 440px;
+  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -397,9 +431,9 @@ a:visited {
   float: left;
   margin: 0 30px;
   filter: drop-shadow(4px 4px 6px gray);
-  height: 440px;
+  height: 400px;
   width: 440px;
-  border-radius: 25px;
+  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -423,8 +457,8 @@ a:visited {
 .singapore {
   float: left;
   margin: 0 30px;
-  height: 440px;
-  border-radius: 25px;
+  height: 480px;
+  border-radius: 20px;
   object-fit: cover;
   filter: drop-shadow(4px 4px 6px gray);
 }
@@ -500,8 +534,43 @@ a:visited {
 
   .paper_tower_photos {
     max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
+    object-position: 0%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .final_photo {
+    
+  }
+
+  .paper_tower_section {
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .static_earthquake_photo {
+    max-width: 100%;
     height: auto;
     object-fit: contain;
+    object-position: 0%;
+  }
+
+  .static_earthquake_section {
+    padding: 10px;
   }
 
   .diagram_photos {
