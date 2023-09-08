@@ -25,6 +25,7 @@ a:visited {
   color: black;
   font-size: 15px;
   font-weight: 100;
+  text-align: justify;
 }
 
 .home_body {
@@ -194,6 +195,11 @@ a:visited {
 }
 
 .modern_house_photos {
+  max-width: 950px;
+  object-fit: cover;
+}
+
+.butterfly_photos {
   max-width: 950px;
   object-fit: cover;
 }
@@ -411,10 +417,10 @@ a:visited {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   color: black;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 100;
   line-height: 35px;
-  text-align: left;
+  text-align: center;
 }
 
 .portrait {
